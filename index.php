@@ -2,7 +2,7 @@
 
 
 // local variabe.............................................
-/*
+
 function localVariable(){
     $name = "kamal husain";
 
@@ -36,11 +36,10 @@ function localVariable3(){
 
 localVariable3();
 
-*/
+
 // global variable..............................
 
 
-/*
 $globalvariable = 50;
 function testvariable(){
     $name = "kamal husain";
@@ -49,9 +48,9 @@ function testvariable(){
 }
 
 testvariable();
-*/
 
-/*
+
+
      $name = "kamal husain";
     $country = "Bangladesh";
     $districs = "kishorganj";
@@ -65,32 +64,32 @@ testvariable();
         echo"Hello global $number, $result";
     }
     globalvariabl2();
-    */
+    
 
 
 //   if stetment ..............................
 
-    //   $number = 20;
+      $number = 20;
 
 
-// if( $number >10){
+if( $number >10){
 
-//     echo "your code is successfully";
-// }
+    echo "your code is successfully";
+}
 
 
-/*
+
 $logicaloperetor = false;
 
 if(!$logicaloperetor){
 echo "hello logicaloperetor";
 }
-*/
+
 
 
 
 // if else stetment....................................................
-/*
+
 $marks ="33";
 
 if($marks >=80){
@@ -108,9 +107,9 @@ echo "A-";
 }else {
     echo "f";
     }
-*/
 
-/*
+
+
 $number = 20;
 
 if( $number <=10){
@@ -119,18 +118,18 @@ if( $number <=10){
 }else if( $number <= 20){
     echo " your code is bad prectic";
 }
-*/
+
 
 // ternary operetor............................
 
 
 
-/*
+
 $age = 10;
 
 $resul = ($age > 30) ?"true":"false";
 echo $resul;
-*/
+
 
 
 
@@ -139,8 +138,6 @@ echo $resul;
 
 
 $age ="100";
-
-
 
 switch($age){
     case ($age<= 33 && $age<= 40):
